@@ -3,4 +3,4 @@ build:
     web: Dockerfile
 setup:
   config:
-    env_file: .env
+    SHOPIFY_API_KEY: process.env.SHOPIFY_API_KEY
