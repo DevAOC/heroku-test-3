@@ -1,5 +1,6 @@
 build:
   docker:
     web: Dockerfile
+setup:
   config:
-    SHOPIFY_API_KEY: ${{process.env.SHOPIFY_API_KEY}}
+    env_file: .env
